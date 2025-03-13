@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surpresa para Duda</title>
+  <link rel="stylesheet" href="fofa.css">
+</head>
+<body>
+  <div class="login-screen">
+    <h1>Pronta pra surpresa...</h1>
+    <a href="fofa.html" class="heart-button">Clique aqui</a>
+  </div>
+  <script>
+    document.querySelector('.heart-button').addEventListener('click', () => {
+        localStorage.setItem('acessou', 'sim');
+    });
+  </script>
+</body>
+</html>
